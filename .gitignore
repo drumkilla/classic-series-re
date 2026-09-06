@@ -1,0 +1,8 @@
+# The plug-ins themselves are Release assets, not repository content: they are
+# tens of megabytes per version, and anything committed to git stays in the
+# history for good. See the Releases page.
+*.zip
+*.vst3
+*.vst
+*.dll
+.DS_Store
