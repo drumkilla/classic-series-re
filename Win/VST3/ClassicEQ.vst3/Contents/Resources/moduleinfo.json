@@ -1,0 +1,52 @@
+{
+  "Name": "ClassicEQ",
+  "Version": "1.0.0",
+  "Factory Info": {
+    "Vendor": "wdak audio",
+    "URL": "",
+    "E-Mail": "",
+    "Flags": {
+      "Unicode": true,
+      "Classes Discardable": false,
+      "Component Non Discardable": false,
+    },
+  },
+  "Compatibility": [
+    {
+      "New": "76D7B15019E25D97E3E1D070667114D9",
+      "Old": [
+        "56535471316938436C61737369632045",
+      ],
+    },
+  ],
+  "Classes": [
+    {
+      "CID": "76D7B15019E25D97E3E1D070667114D9",
+      "Category": "Audio Module Class",
+      "Name": "Classic EQ",
+      "Vendor": "wdak audio",
+      "Version": "1.0.0",
+      "SDKVersion": "VST 3.8.1",
+      "Sub Categories": [
+        "Fx",
+        "EQ",
+      ],
+      "Class Flags": 1,
+      "Cardinality": 2147483647,
+      "Snapshots": [
+      ],
+    },
+    {
+      "CID": "0741173E67FEA6F781344500EE35A27B",
+      "Category": "Component Controller Class",
+      "Name": "Classic EQ Controller",
+      "Vendor": "wdak audio",
+      "Version": "1.0.0",
+      "SDKVersion": "VST 3.8.1",
+      "Class Flags": 0,
+      "Cardinality": 2147483647,
+      "Snapshots": [
+      ],
+    },
+  ],
+}

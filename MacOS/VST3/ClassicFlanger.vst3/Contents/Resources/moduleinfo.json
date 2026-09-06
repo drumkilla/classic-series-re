@@ -1,0 +1,52 @@
+{
+  "Name": "ClassicFlanger",
+  "Version": "1.0.0",
+  "Factory Info": {
+    "Vendor": "wdak audio",
+    "URL": "",
+    "E-Mail": "",
+    "Flags": {
+      "Unicode": true,
+      "Classes Discardable": false,
+      "Component Non Discardable": false,
+    },
+  },
+  "Compatibility": [
+    {
+      "New": "A779C2635AA043D8AE7D7D2BE45BEDB4",
+      "Old": [
+        "56535434323333436C61737369632043",
+      ],
+    },
+  ],
+  "Classes": [
+    {
+      "CID": "9CFA15B3CBE5E5EECFC145070D0E11B3",
+      "Category": "Audio Module Class",
+      "Name": "Classic Flanger",
+      "Vendor": "wdak audio",
+      "Version": "1.0.0",
+      "SDKVersion": "VST 3.8.1",
+      "Sub Categories": [
+        "Fx",
+        "Modulation",
+      ],
+      "Class Flags": 1,
+      "Cardinality": 2147483647,
+      "Snapshots": [
+      ],
+    },
+    {
+      "CID": "BEA1FA2F38D056C84DA4A79C7DF89141",
+      "Category": "Component Controller Class",
+      "Name": "Classic Flanger Controller",
+      "Vendor": "wdak audio",
+      "Version": "1.0.0",
+      "SDKVersion": "VST 3.8.1",
+      "Class Flags": 0,
+      "Cardinality": 2147483647,
+      "Snapshots": [
+      ],
+    },
+  ],
+}

@@ -1,0 +1,52 @@
+{
+  "Name": "ClassicPhaser",
+  "Version": "1.0.0",
+  "Factory Info": {
+    "Vendor": "wdak audio",
+    "URL": "",
+    "E-Mail": "",
+    "Flags": {
+      "Unicode": true,
+      "Classes Discardable": false,
+      "Component Non Discardable": false,
+    },
+  },
+  "Compatibility": [
+    {
+      "New": "A779C2635AA043D8AE7D7D2BE45BEDB4",
+      "Old": [
+        "56535434323333436C61737369632043",
+      ],
+    },
+  ],
+  "Classes": [
+    {
+      "CID": "5F925601E5324E9BBE481F3665BAFE03",
+      "Category": "Audio Module Class",
+      "Name": "Classic Phaser",
+      "Vendor": "wdak audio",
+      "Version": "1.0.0",
+      "SDKVersion": "VST 3.8.1",
+      "Sub Categories": [
+        "Fx",
+        "Modulation",
+      ],
+      "Class Flags": 1,
+      "Cardinality": 2147483647,
+      "Snapshots": [
+      ],
+    },
+    {
+      "CID": "BA588B42AD944DC4B4666FC19228B38D",
+      "Category": "Component Controller Class",
+      "Name": "Classic Phaser Controller",
+      "Vendor": "wdak audio",
+      "Version": "1.0.0",
+      "SDKVersion": "VST 3.8.1",
+      "Class Flags": 0,
+      "Cardinality": 2147483647,
+      "Snapshots": [
+      ],
+    },
+  ],
+}

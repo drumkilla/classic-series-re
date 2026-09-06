@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+  Info.plist for the VST3 bundle.
+
+  Written by hand rather than left to the SDK, whose plist population is gated on the Xcode
+  generator (`if(XCODE)` in SMTG_Bundle.cmake). Under Unix Makefiles that branch never runs
+  and CMake emits its default template with every value empty - including
+  CFBundleIdentifier, and with CFBundlePackageType set to APPL instead of BNDL. Hosts that
+  key their plug-in database on the bundle identifier then have nothing to key on.
+-->
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>ClassicFlanger</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.wdakaudio.classicflanger</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>Classic Flanger</string>
+	<key>CFBundlePackageType</key>
+	<string>BNDL</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0.0</string>
+	<key>CFBundleVersion</key>
+	<string>1.0.0</string>
+	<key>CFBundleSupportedPlatforms</key>
+	<array>
+		<string>MacOSX</string>
+	</array>
+	<key>LSMinimumSystemVersion</key>
+	<string>10.13</string>
+	<key>NSHumanReadableCopyright</key>
+	<string>wdak audio</string>
+	<key>NSHighResolutionCapable</key>
+	<true/>
+	<key>CSResourcesFileMapped</key>
+	<true/>
+</dict>
+</plist>

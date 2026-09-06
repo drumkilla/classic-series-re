@@ -10,6 +10,10 @@ binaries so that projects which reference the originals can still be opened.
 > around 2009. Everything in this repository was written from scratch — no
 > Kjaerhus code, artwork or assets are included or redistributed.
 
+### ⬇ [Download](https://github.com/drumkilla/classic-series-re/releases)
+
+Read **Install** section below.
+
 ---
 
 ## What this is

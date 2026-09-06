@@ -1,0 +1,52 @@
+{
+  "Name": "ClassicCompressor",
+  "Version": "1.0.0",
+  "Factory Info": {
+    "Vendor": "wdak audio",
+    "URL": "",
+    "E-Mail": "",
+    "Flags": {
+      "Unicode": true,
+      "Classes Discardable": false,
+      "Component Non Discardable": false,
+    },
+  },
+  "Compatibility": [
+    {
+      "New": "641313C7D4F043A49C9C919A157CFA60",
+      "Old": [
+        "5653546F313332436C61737369632043",
+      ],
+    },
+  ],
+  "Classes": [
+    {
+      "CID": "641313C7D4F043A49C9C919A157CFA60",
+      "Category": "Audio Module Class",
+      "Name": "Classic Compressor",
+      "Vendor": "wdak audio",
+      "Version": "1.0.0",
+      "SDKVersion": "VST 3.8.1",
+      "Sub Categories": [
+        "Fx",
+        "Modulation",
+      ],
+      "Class Flags": 1,
+      "Cardinality": 2147483647,
+      "Snapshots": [
+      ],
+    },
+    {
+      "CID": "BD90D5012AA34BC38E0537A2E160C8FB",
+      "Category": "Component Controller Class",
+      "Name": "Classic Compressor Controller",
+      "Vendor": "wdak audio",
+      "Version": "1.0.0",
+      "SDKVersion": "VST 3.8.1",
+      "Class Flags": 0,
+      "Cardinality": 2147483647,
+      "Snapshots": [
+      ],
+    },
+  ],
+}

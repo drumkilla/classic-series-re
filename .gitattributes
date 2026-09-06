@@ -1,0 +1,4 @@
+# The plug-ins are binaries. Say so explicitly rather than trusting auto-detection:
+# a mangled line ending inside a bundle produces a plug-in that silently fails to load.
+MacOS/** binary
+Win/** binary
