@@ -4,6 +4,8 @@ Independent 64-bit reimplementations of the nine **Kjaerhus Audio “Classic” 
 for **macOS and Windows**, rebuilt with AI from static analysis of the original 32-bit Windows
 binaries so that projects which reference the originals can still be opened.
 
+![All nine editors, running on macOS](https://raw.githubusercontent.com/drumkilla/classic-series-re/main/overview.png)
+
 > **Not affiliated with, endorsed by, or connected to Kjaerhus Audio.**
 > The original algorithms and designs are theirs. Kjaerhus Audio was
 > a Danish developer whose Classic series shipped as freeware; the company ceased trading
