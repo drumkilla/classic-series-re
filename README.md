@@ -74,17 +74,17 @@ Both platforms are **64-bit**. The originals were 32-bit; that difference is the
 **macOS** — 10.13+, universal (Intel + Apple Silicon), ad-hoc signed.
 
 ```
-VST3    →  ~/Library/Audio/Plug-Ins/VST3/
-2.4     →  ~/Library/Audio/Plug-Ins/VST/
-presets →  ~/Library/Audio/Presets/wdak audio/<plug-in name>/
+VST3    →  /Library/Audio/Plug-Ins/VST3/
+2.4     →  /Library/Audio/Plug-Ins/VST/
+presets →  /Library/Audio/Presets/wdak audio/<plug-in name>/
 ```
 
 The plug-ins are ad-hoc signed, so macOS quarantines them on download. **After copying them
 in**, you **must** run these two commands in Terminal:
 
 ```
-xattr -dr com.apple.quarantine ~/Library/Audio/Plug-Ins/VST3/Classic*.vst3
-xattr -dr com.apple.quarantine ~/Library/Audio/Plug-Ins/VST/Classic*.vst
+xattr -dr com.apple.quarantine /Library/Audio/Plug-Ins/VST3/Classic*.vst3
+xattr -dr com.apple.quarantine /Library/Audio/Plug-Ins/VST/Classic*.vst
 ```
 
 Otherwise the host won't load them.
